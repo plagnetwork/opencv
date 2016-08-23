@@ -203,7 +203,7 @@ if __name__ == "__main__":
             ("armv7", "iPhoneOS"),
             ("armv7s", "iPhoneOS"),
             ("arm64", "iPhoneOS"),
-            ("i386", "iPhoneSimulator"),
-            ("x86_64", "iPhoneSimulator"),
+#            ("i386", "iPhoneSimulator"),
+#            ("x86_64", "iPhoneSimulator"),
         ])
     b.build(args.out)
